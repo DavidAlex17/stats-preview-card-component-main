@@ -1,11 +1,3 @@
-@use 'style.scss';
-@use 'variables.scss';
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
+@import url(/Users/davidalex/Developer/stats-preview-card-component-main/css/style.css);
+@import url(/Users/davidalex/Developer/stats-preview-card-component-main/css/variables.css);
 /*# sourceMappingURL=main.css.map */

@@ -1,10 +1,8 @@
-@use 'style.scss';
-@use 'variables.scss';
+@import 'css/_style.css';
+@import 'css/_variables.css';
 
-.attribution {
-  font-size: 11px; text-align: center; 
+// ---------------------------------------------
+// --- CONTENTS --------------------------------
+// ---------------------------------------------
 
-  a { 
-    color: hsl(228, 45%, 44%); 
-  }
-}
+
