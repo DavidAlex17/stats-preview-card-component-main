@@ -1,0 +1,54 @@
+/* --------------------------------------------- */
+/* SASS FILES                                    */
+/* --------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  font-size: 15px;
+}
+
+/* 
+@font-face {
+  font-family: 'Inter_Regular';
+  src: url('/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_Bold';
+  src: url('/fonts/Inter-Bold.ttf') format('trueType');
+}
+*/
+/* ---------------------------------------------- */
+/* --- CONTENTS --------------------------------- */
+/* ---------------------------------------------- */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.font-one {
+  font-family: 'Inter';
+  color: antiquewhite;
+}
+
+.font-two {
+  font-family: 'Lexend Deca';
+  color: aquamarine;
+}
+
+.background {
+  background-color: #090b1a;
+}
+
+a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
