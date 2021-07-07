@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@use './_colors';
+@use './_fonts';
+/*# sourceMappingURL=mainStyles.css.map */

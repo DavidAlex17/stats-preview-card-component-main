@@ -1,0 +1,38 @@
+/* ---------------------------------------------- */
+/* --- CONTENTS --------------------------------- */
+/* ---------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.attribution {
+  text-align: center; 
+}
+
+.font-one {
+  font-family: 'Inter';
+  color: antiquewhite;
+}
+
+.font-two {
+  font-family: 'Lexend Deca';
+  color: aquamarine;
+}
+
+.background {
+  background-color: primary-color-100;
+}
+
+a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+/*# sourceMappingURL=mainStyles.css.map */
