@@ -5,12 +5,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
-
-body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .attribution {
@@ -28,11 +25,11 @@ body {
 }
 
 .background {
-  background-color: primary-color-100;
+  background-color: $primary-color-100;
 }
 
 a { 
   color: hsl(228, 45%, 44%); 
 }
 
-/*# sourceMappingURL=mainStyles.css.map */
+/*# sourceMappingURL=main.css.map */
