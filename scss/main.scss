@@ -1,13 +1,18 @@
-/* --------------------------------------------- */
-/* SASS FILES                                    */
-/* --------------------------------------------- */
+/* ---------------------------------------------- */
+/* --- SASS ------------------------------------- */
+/* ---------------------------------------------- */
 
-@import '_colors';
-@import '_fonts';
-
+@import 'colors';
 
 /* ---------------------------------------------- */
-/* --- CONTENTS --------------------------------- */
+/* --- FONTS ------------------------------------ */
+/* ---------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* ---------------------------------------------- */
+/* --- CONTENT ---------------------------------- */
 /* ---------------------------------------------- */
 
 *,
@@ -18,24 +23,20 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  text-align: center; 
-}
-
-.font-one {
-  font-family: 'Inter';
-  color: antiquewhite;
-}
-
-.font-two {
-  font-family: 'Lexend Deca';
-  color: aquamarine;
-}
-
 .background {
   background-color: $primary-color-100;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-a { 
-  color: hsl(228, 45%, 44%); 
-}
+.attribution {
+  text-align: center; 
+  font-size: 11px;
+  
+  a { 
+    color: hsl(228, 45%, 44%); 
+  }
+} 

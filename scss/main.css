@@ -1,25 +1,13 @@
-/* --------------------------------------------- */
-/* SASS FILES                                    */
-/* --------------------------------------------- */
+/* ---------------------------------------------- */
+/* --- SASS ------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* --- FONTS ------------------------------------ */
+/* ---------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
-body {
-  font-size: 15px;
-}
-
-/* 
-@font-face {
-  font-family: 'Inter_Regular';
-  src: url('/fonts/Inter-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Bold';
-  src: url('/fonts/Inter-Bold.ttf') format('trueType');
-}
-*/
 /* ---------------------------------------------- */
-/* --- CONTENTS --------------------------------- */
+/* --- CONTENT ---------------------------------- */
 /* ---------------------------------------------- */
 *,
 *::before,
@@ -30,25 +18,30 @@ body {
           box-sizing: border-box;
 }
 
-.attribution {
-  text-align: center;
-}
-
-.font-one {
-  font-family: 'Inter';
-  color: antiquewhite;
-}
-
-.font-two {
-  font-family: 'Lexend Deca';
-  color: aquamarine;
-}
-
 .background {
   background-color: #090b1a;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-a {
+.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a {
   color: #3e52a3;
 }
 /*# sourceMappingURL=main.css.map */
