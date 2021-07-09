@@ -1,0 +1,26 @@
+/* ---------------------------------------------- */
+/* --- FONTS ------------------------------------ */
+/* ---------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: $neutral-color-100;
+}
+
+span {
+  color: $primary-color-300; 
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: $neutral-color-200;
+}
+
+ul p {
+  text-transform: uppercase;
+}
