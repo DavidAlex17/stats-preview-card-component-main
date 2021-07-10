@@ -34,3 +34,21 @@
     color: hsl(228, 45%, 44%); 
   }
 } 
+
+/* ---------------------------------------------- */
+/* --- CARD CONTENT ----------------------------- */
+/* ---------------------------------------------- */
+
+.card-content {
+  background-color: $primary-color-200;
+  text-align: center;
+  max-width: 300px;
+
+  .header {
+    background-image: linear-gradient(hsla(277, 69%, 35%, 0.73)), url(/img/image-header-mobile.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 220px;
+  }
+}
