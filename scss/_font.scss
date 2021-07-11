@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-h1 {
+h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: $neutral-color-100;
@@ -15,12 +15,27 @@ span {
   color: $primary-color-300; 
 }
 
-p {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  color: $neutral-color-200;
+ul {
+  list-style: none;
+  padding: 0px 25px 0px 25px;
+
+  p {
+    line-height: 30px;
+    padding-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: $neutral-color-200;
+  }
+
+  li p {
+    text-transform: uppercase;
+  }
+  
 }
 
-ul p {
-  text-transform: uppercase;
+ul > h2:first-child {
+  margin: 0px auto;
+  max-width: 250px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
