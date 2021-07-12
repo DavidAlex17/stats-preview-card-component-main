@@ -42,19 +42,19 @@
 
 .card-content {
   background-color: $primary-color-200;
-  text-align: center;
-  max-width: 330px;
-  width: 100%;
-  margin: 90px 90px;
   border-radius: 5px;
+  text-align: center;
+  margin: 50px 50px;
   overflow: hidden;
+  width: 90%;
 
   .header {
     background-image: linear-gradient(hsla(277, 81%, 64%, 0.884)), url(/img/image-header-mobile.jpg);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-size: contain; 
-    height: 242px;
+    background-size: cover; 
+    height: 15.4rem;
+    width: 100%;
   }
 }
 
@@ -62,4 +62,4 @@
 /* --- MEDIA QUERIES ---------------------------- */
 /* ---------------------------------------------- */
 
-@media (min-width: 1400px) {}
+@media (min-width: 700px) {}
