@@ -125,6 +125,7 @@ ul > h2:first-child {
             flex-direction: row-reverse;
   }
   .card-content .header {
+    width: 80%;
     height: 25rem;
   }
 }
