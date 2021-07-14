@@ -66,7 +66,7 @@ ul > h2:first-child {
 
 .background {
   background-color: #090b1a;
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,6 +76,10 @@ ul > h2:first-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .attribution {
@@ -100,8 +104,8 @@ ul > h2:first-child {
 }
 
 .card-content .header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(181, 89, 238, 0.884))), url("img/image-header-mobile.jpg");
-  background-image: linear-gradient(rgba(181, 89, 238, 0.884)), url("img/image-header-mobile.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(181, 89, 238, 0.884))), url(/img/image-header-mobile.jpg);
+  background-image: linear-gradient(rgba(181, 89, 238, 0.884)), url(/img/image-header-mobile.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,6 +129,8 @@ ul > h2:first-child {
             flex-direction: row-reverse;
   }
   .card-content .header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(181, 89, 238, 0.884))), url(/img/image-header-desktop.jpg);
+    background-image: linear-gradient(rgba(181, 89, 238, 0.884)), url(/img/image-header-desktop.jpg);
     width: 80%;
     height: 25rem;
   }
