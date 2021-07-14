@@ -14,8 +14,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,15 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./img/ScreenShot-Desktop.png)
+![](./img/ScreenShot-Mobile-1.png)
+![](./img/ScreenShot-Mobile-2.png) 
 
 ### Links
 
@@ -43,25 +35,18 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+I started the challenge by doing mobile first then desktop using media queries. i used sass to file structure everything properly to an extent. 
+
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
+- SASS
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For continued development, i believe the area i lack is focusing more on how to properly work with media queries to better preform the responsiveness of the websites i will create. it is a crucial factor in my career to perfect this factor of css. a great opportunity nonetheless. Aside from that, i would like to learn more about sass, although i must admit i am not knowledge in the detail of sass but it is preventing to how to really use sass, if i knew better i would definitely compiled files such as code components for css such as general or parent code even files for media queries. i will work on fixing that as well. to dive more in depth, i believe more code also needs some fixing, such as the specificity of my code and also the sizing elements px, rem, and em.
 
 ## Author
 
@@ -70,6 +55,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+i want to give credit youtube sources for giving me another perspective on how to code this challenge.
