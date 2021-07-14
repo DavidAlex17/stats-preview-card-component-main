@@ -38,3 +38,19 @@ ul > h2:first-child {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+/* ---------------------------------------------- */
+/* --- MEDIA QUERIES ---------------------------- */
+/* ---------------------------------------------- */
+
+@media (min-width: 700px) {
+
+  ul {
+    margin-top: 20px;
+  }
+
+  li {
+    float: left;
+    padding: 15px 30px;
+  }
+}
